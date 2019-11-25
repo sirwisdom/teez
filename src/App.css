@@ -3,8 +3,8 @@
   --whiteColor: #fff;
   --blueColor: #00028d;
   --blackColor: #080808;
-  --mainGrey: #ececec;
-  --greyColor: #5b5b5b;
+  --redColor: #be3803;
+  --greyColor: #cfcece9c;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 3px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
@@ -295,7 +295,7 @@ Nav Styles
   .second-info > h4 {
     padding: 0.3rem;
     font-weight: 400;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     line-height: 1.2em;
   }
 }
@@ -396,7 +396,140 @@ Nav Styles
 .fourth {
   height: 80vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+.fourth-image-div {
+  height: 100%;
+  width: 100%;
+}
+
+.fourth-image {
+  height: 100%;
+  width: 100%;
+}
+
+.fourth-info {
+  height: 100%;
+  width: 100%;
+  background: var(--greyColor);
+  display: flex;
+  align-items: center;
+}
+
+.fourth-info > h4 {
+  font-weight: 400;
+  font-size: 3rem;
+  transform: translateX(-3rem);
+}
+
+@media screen and (max-width: 768px) {
+  .fourth {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fourth-info > h4 {
+    font-weight: 400;
+    font-size: 1.7rem;
+    transform: translateX(-1.4rem);
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .fourth {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fourth-info {
+    height: 100%;
+    width: 100%;
+    background: var(--greyColor);
+    display: flex;
+    align-items: center;
+  }
+
+  .fourth-info > h4 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    transform: translateX(-1rem);
+  }
+}
+
+/* fifth Section styles */
+
+.fifth {
+  padding: 0.3rem;
+  background: var(--redColor);
+  color: var(--whiteColor);
+}
+
+.fifth-info {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.fifth-image-div {
+  height: 70vh;
+  width: 60vh;
+  margin: 0 auto;
+}
+
+.fifth-image {
+  height: 100%;
+  width: 100%;
+}
+
+.fifth-info-heading {
+  font-weight: 500;
+  margin-top: 0.4rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .fifth {
+    padding: 0.2rem;
+    background: var(--redColor);
+    color: var(--whiteColor);
+  }
+
+  .fifth-info {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
+
+  .fifth-image-div {
+    height: 60vh;
+    width: 50vh;
+    margin: 0 auto;
+  }
+
+  .fifth-info-heading {
+    padding: 0.2rem;
+    font-weight: 400;
+    margin-top: 0.4rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+/* Sixth Section Styles */
+
+.sixth {
+  padding: 0.7rem;
+  background: var(--redColor);
+  color: var(--whiteColor);
+  margin-top: 0.3rem;
 }

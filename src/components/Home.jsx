@@ -4,6 +4,7 @@ import Img2 from "../images/image2.jpg";
 import Img3 from "../images/image3.jpeg";
 import Img4 from "../images/image4.jpg";
 import Img5 from "../images/image5.jpg";
+import Img6 from "../images/image6.jpg";
 
 export const Home = () => {
   return (
@@ -64,14 +65,30 @@ export const Home = () => {
         </div>
       </section>
       <section className="fourth">
-        <div className="third-image-div">
+        <div className="fourth-image-div">
           <img src={Img5} alt="girl" className="fourth-image" />
-          <div className="fourth-info">
-            <h4>
-              We Recognise that it is very important that people feel
-              comfortable being themselves if they must be their best
-            </h4>
-          </div>
+        </div>
+        <div className="fourth-info">
+          <h4>
+            We Recognise that it is very important that people feel comfortable
+            being themselves if they must be their best
+          </h4>
+        </div>
+      </section>
+      <section className="fifth">
+        <h4 className="fifth-info">
+          We provide young liberals with their chance at expressing themselves
+          without drawing the wrath of much older misinformed conservatives.
+        </h4>
+
+        <div className="fifth-image-div">
+          <img src={Img2} alt="girl" className="fifth-image" />
+        </div>
+        <h4 className="fifth-info-heading">NOT LIKE WE CARE ANYWAY</h4>
+      </section>
+      <section className="sixth">
+        <div className="fifth-image-div">
+          <img src={Img6} alt="girl" className="fifth-image" />
         </div>
       </section>
     </>

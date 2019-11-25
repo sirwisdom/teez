@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export const Navbar = () => {
-  const [navOpen, setnavOpen] = useState(false);
+  const [navOpen, setnavOpen] = useState(true);
   return (
     <header className="header">
       <div className="hamburger-div">
