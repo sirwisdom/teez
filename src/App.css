@@ -247,11 +247,57 @@ Nav Styles
   }
 }
 
+/* Second Section Styles */
 .second {
+  position: relative;
   height: 100vh;
   display: flex;
 }
 
+.second-circle {
+  position: absolute;
+  top: 20vh;
+  right: 80vh;
+  width: 60vh;
+  height: 60vh;
+  border: 2rem solid rgba(255, 255, 0, 0.5);
+  border-radius: 50%;
+}
+@media screen and (max-width: 900px) {
+  .second-circle {
+    position: absolute;
+    top: 20vh;
+    right: 60vh;
+    width: 50vh;
+    height: 50vh;
+    border: 1.7rem solid rgba(255, 255, 0, 0.5);
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .second-circle {
+    position: absolute;
+    top: 10vh;
+    right: 40vh;
+    width: 40vh;
+    height: 40vh;
+    border: 1.7rem solid rgba(255, 255, 0, 0.5);
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .second-circle {
+    position: absolute;
+    top: 5vh;
+    right: 20vh;
+    width: 25vh;
+    height: 25vh;
+    border: 1.3rem solid rgba(255, 255, 0, 0.5);
+    border-radius: 50%;
+  }
+}
 .second-image-div,
 .second-info {
   width: 100%;
