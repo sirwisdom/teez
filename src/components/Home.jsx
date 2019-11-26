@@ -40,6 +40,7 @@ export const Home = () => {
       </section>
 
       <section className="second">
+        <div className="second-circle"></div>
         <div className="second-image-div">
           <img src={Img3} alt="Young man" className="second-image" />
         </div>
